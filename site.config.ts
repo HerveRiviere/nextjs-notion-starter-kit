@@ -53,7 +53,7 @@ export default siteConfig({
   },
   {
     title: 'Notre histoire',
-    pageId: '#f69f22baf8fb407399ca01b3493d7224'
+    pageId: '#35fd4d10c0854c1b9ed1c6d864d34589'
   },
   {
     title: 'La foire aux questions',

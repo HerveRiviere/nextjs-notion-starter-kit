@@ -33,6 +33,12 @@ body {
   visibility: hidden;
 }
 
+.notion-h1 {
+  visibility: hidden;
+  margin-top:0;
+  font-size: 0em;
+}
+
 .static-tweet-emoji {
   height: 1.2em !important;
   width: 1.2em !important;

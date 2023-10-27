@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 import cs from 'classnames'
+import { parsePageId } from 'notion-utils'
 import { PageBlock } from 'notion-types'
 import { formatDate, getBlockTitle, getPageProperty } from 'notion-utils'
 import BodyClassName from 'react-body-classname'
@@ -185,19 +186,17 @@ export const NotionPage: React.FC<types.PageProps> = ({
   const keys = Object.keys(recordMap?.block || {})
   const block = recordMap?.block?.[keys[0]]?.value
 
-  // const isRootPage =
-  //   parsePageId(block?.id) === parsePageId(site?.rootNotionPageId)
-  const isBlogPost =
-    block?.type === 'page' && block?.parent_table === 'collection'
+  const isRootPage =
+     parsePageId(block?.id) === parsePageId(site?.rootNotionPageId)
 
-  const showTableOfContents = true
+  const showTableOfContents = !!isRootPage
   const minTableOfContentsItems = 3
 
   const pageAside = React.useMemo(
     () => (
-      <PageAside block={block} recordMap={recordMap} isBlogPost={isBlogPost} />
+      <PageAside block={block} recordMap={recordMap} isBlogPost={false} />
     ),
-    [block, recordMap, isBlogPost]
+    [block, recordMap, false]
   )
 
   const footer = React.useMemo(() => <Footer />, [])
