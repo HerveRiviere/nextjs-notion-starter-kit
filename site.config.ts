@@ -11,18 +11,11 @@ export default siteConfig({
   // basic site info (required)
   name: 'Pauline & Hervé',
   domain: 'paulineherve.com',
-  author: 'Pauline & Hervér',
+  author: 'Pauline & Hervé',
 
   // open graph metadata (optional)
-  description: 'Pauline & Hervé',
+  description: 'Pauline & Hervé - 23 et 24 mars 2024',
 
-  // social usernames (optional)
-  // mastodon: '#', // optional mastodon profile URL, provides link verification
-  // newsletter: '#', // optional newsletter URL
-  // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
-
-  // default notion icon and cover images for site-wide consistency (optional)
-  // page-specific values will override these site-wide defaults
   defaultPageIcon: null,
   defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
@@ -44,19 +37,27 @@ export default siteConfig({
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
   pageUrlOverrides: null,
+  isSearchEnabled: false,
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  navigationStyle: 'custom',
+  navigationLinks: [
+  {
+    title: 'Accueil',
+    pageId: '#f69f22baf8fb407399ca01b3493d7224'
+  },
+  {
+    title: 'Notre Histoire',
+    pageId: '#f69f22baf8fb407399ca01b3493d7224'
+  },
+  {
+    title: 'FAQ',
+    pageId: '#f69f22baf8fb407399ca01b3493d7224'
+  },
+  {
+    title: 'Les Logements',
+    pageId: '#5fc091ad407049659f2f25bed4b68108'
+  },
+]
 })
