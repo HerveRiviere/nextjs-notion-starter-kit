@@ -48,11 +48,15 @@ export default siteConfig({
     pageId: '#f69f22baf8fb407399ca01b3493d7224'
   },
   {
-    title: 'Notre Histoire',
+    title: 'La liste de mariage',
+    url: 'https://paulineherve.zankyou.com/fr/liste-de-mariage'
+  },
+  {
+    title: 'Notre histoire',
     pageId: '#f69f22baf8fb407399ca01b3493d7224'
   },
   {
-    title: 'FAQ',
+    title: 'La foire aux questions',
     pageId: '#f69f22baf8fb407399ca01b3493d7224'
   },
   {
