@@ -44,8 +44,8 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
   {
-    title: 'Accueil',
-    pageId: '#f69f22baf8fb407399ca01b3493d7224'
+    title: 'Accueil et RSVP',
+    pageId: '#66a5e475b69345988d324e0bbaa35bbd'
   },
   {
     title: 'La liste de mariage',

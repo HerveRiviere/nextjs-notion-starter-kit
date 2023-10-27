@@ -29,6 +29,10 @@ body {
   margin-inline-end: 0;
 }
 
+.notion-aside-table-of-contents-header {
+  visibility: hidden;
+}
+
 .static-tweet-emoji {
   height: 1.2em !important;
   width: 1.2em !important;
@@ -57,6 +61,6 @@ body {
   background-color: var(--fg-color-1);
 }
 
-::-webkit-scrollbar-track {           
+::-webkit-scrollbar-track {
     background-color: var(--bg-color);
 }
