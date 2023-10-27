@@ -48,20 +48,20 @@ export default siteConfig({
     pageId: '#66a5e475b69345988d324e0bbaa35bbd'
   },
   {
-    title: 'La liste de mariage',
-    url: 'https://paulineherve.zankyou.com/fr/liste-de-mariage'
-  },
-  {
-    title: 'Notre histoire',
-    pageId: '#35fd4d10c0854c1b9ed1c6d864d34589'
+    title: 'Les Logements',
+    pageId: '#5fc091ad407049659f2f25bed4b68108'
   },
   {
     title: 'La foire aux questions',
     pageId: '#f69f22baf8fb407399ca01b3493d7224'
   },
   {
-    title: 'Les Logements',
-    pageId: '#5fc091ad407049659f2f25bed4b68108'
+    title: 'La liste de mariage',
+    url: 'https://paulineherve.zankyou.com/fr/liste-de-mariage'
   },
+  {
+    title: 'Notre histoire',
+    pageId: '#35fd4d10c0854c1b9ed1c6d864d34589'
+  }
 ]
 })
