@@ -44,19 +44,19 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
   {
-    title: 'Accueil et RSVP',
+    title: 'RSVP',
     pageId: '#66a5e475b69345988d324e0bbaa35bbd'
   },
   {
-    title: 'Les Logements',
+    title: 'Logements',
     pageId: '#5fc091ad407049659f2f25bed4b68108'
   },
   {
-    title: 'La foire aux questions',
+    title: 'Foire aux questions',
     pageId: '#f69f22baf8fb407399ca01b3493d7224'
   },
   {
-    title: 'La liste de mariage',
+    title: 'Liste de mariage',
     url: 'https://paulineherve.zankyou.com/fr/liste-de-mariage'
   },
   {
