@@ -44,7 +44,7 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
   {
-    title: 'RSVP',
+    title: 'Accueil',
     pageId: '#66a5e475b69345988d324e0bbaa35bbd'
   },
   {
