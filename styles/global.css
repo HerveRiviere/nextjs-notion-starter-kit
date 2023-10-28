@@ -37,6 +37,15 @@ body {
   visibility: hidden;
 }
 
+@media (max-width: 900px) {
+  .notion-header .button {
+  padding: 0px;
+}
+.notion-header .notion-nav-header {
+  font-size: 10px;
+}
+}
+
 .notion-h1 {
   visibility: hidden;
   margin-top:0;
